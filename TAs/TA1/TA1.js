@@ -8,6 +8,7 @@ function repeatString(para, cant) {
   const paraResult = document.createElement("p");
   paraResult.textContent = (para + ' ').repeat(cant);
   document.body.appendChild(paraResult);
+  console.log(paraResult);
 }
 
 const buttons = document.querySelectorAll("button");

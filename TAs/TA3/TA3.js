@@ -9,6 +9,7 @@ function removeFromArray(para, lista) {
   const paraResult = document.createElement("p");
   paraResult.textContent = lista.filter((element) => element !== para);
   document.body.appendChild(paraResult);
+  console.log(paraResult);
 }
 
 const buttons = document.querySelectorAll("button");

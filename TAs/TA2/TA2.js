@@ -7,6 +7,7 @@ function reverseString(para) {
   const paraResult = document.createElement("p");
   paraResult.textContent = para.split("").reverse().join("");
   document.body.appendChild(paraResult);
+  console.log(paraResult);
 }
 
 const buttons = document.querySelectorAll("button");
